@@ -6,11 +6,11 @@ namespace Dragoncraft
     [CreateAssetMenu(menuName = "Dragoncraft/New Configuration")]
     public class LevelConfiguration : ScriptableObject
     {
-        public List<LevelItem> levelItems = new List<LevelItem>();
+        public List<LevelItem> LevelItems = new List<LevelItem>();
         
         public LevelItem FindByType(LevelItemType type)
         {
-            return levelItems.Find(item => item.Type == type);
+            return LevelItems.Find(item => item.Type == type);
         }
     }
 }
