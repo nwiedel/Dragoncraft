@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelItems:
   - Type: 1
-    Prefab: {fileID: 5907390534173514743, guid: 933ada4773166704cbba464d5534082c, type: 3}
+    Prefab: {fileID: 1369031296425274, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
   - Type: 2
-    Prefab: {fileID: 1640908652775104, guid: cd87e5026d1695148aabe96121c526ef, type: 3}
+    Prefab: {fileID: 3306381682641014780, guid: 933ada4773166704cbba464d5534082c, type: 3}
   - Type: 3
+    Prefab: {fileID: 1640908652775104, guid: cd87e5026d1695148aabe96121c526ef, type: 3}
+  - Type: 4
     Prefab: {fileID: 1689892608009186, guid: 6fc2010b5899cfd488a0ddf205679e2b, type: 3}

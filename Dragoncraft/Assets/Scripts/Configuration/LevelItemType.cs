@@ -7,6 +7,7 @@ namespace Dragoncraft
     {
         None,
         Tree,
+        TreeGroup,
         House,
         Rock
     }
