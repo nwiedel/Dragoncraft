@@ -33,6 +33,31 @@ namespace Dragoncraft
         {
 
         }
+
+        private GameObject CreateItem(bool active)
+        {
+            GameObject item = Instantiate(_prefab);
+            item.transform.SetParent(transform);
+            item.SetActive(active);
+            return item;
+        }public GameObject GetObject()
+        {
+            foreach(GameObject item in _gameObjects)
+            {
+                if (!item.activeInHierarchy)
+                {
+                    item.SetActive(true);
+                    return item;
+                }
+            }
+            if (_allowCreation)
+            {
+                GameObject item = CreateItem(true);
+                _gameObjects.Add(item);
+                return item;
+            }
+            return null;
+        }
     }
 }
 
