@@ -7,9 +7,9 @@ namespace Dragoncraft
     {
         public UnitType Type;
         public int Level;
-        public float LevelMultiplyer;
+        public float LevelMultiplier;
         public float Health;
-        public float Attac;
+        public float Attack;
         public float Defense;
         public float WalkSpeed;
         public float AttackSpeed;

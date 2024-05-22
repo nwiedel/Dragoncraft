@@ -7,7 +7,7 @@ namespace Dragoncraft
         public string ID;
         public UnitType Type;
         public int Level;
-        public float LevelMultiplyer;
+        public float LevelMultiplier;
         public float Health;
         public float Attack;
         public float Defense;
